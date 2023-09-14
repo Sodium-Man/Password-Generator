@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passwoard-generator</passwoard-generator></title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main_container">
+
+        <div class="generator">
+            <h3>randon passwoard generator</h3>
+            <input type="text" id="display" placeholder="passwoard">
+
+            <div class="options">
+
+                <p>
+                    <label for="length">length of passwoard</label>
+                    <input type="number" min="0" max="25"  value="8" id="length">
+                </p>
+
+                <p>
+                    <label for="uppercase">insert uppercase lattrs</label>
+                    <input type="checkbox" id="uppercase">
+                </p>
+
+                <p>
+                    <label for="lowercase">insert lowercase lattrs</label>
+                    <input type="checkbox" id="lowercase">
+                </p>
+
+                <p>
+                    <label for="numbers">insert numbers</label>
+                    <input type="checkbox" id="numbers">
+                </p>
+
+                <p>
+                    <label for="symbols">insert symbols</label>
+                    <input type="checkbox" id="symbols">
+                </p>
+
+                <button id="easybtn" >easy</button>
+                <button id="mediam" >mediam</button>
+                <button id="hardbtn" >hard</button>
+
+                <button id="generate" >generate ></button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- <script src="script.js"></script> -->
+    <script src="script2.js"></script>
+</body>
+
+</html>
